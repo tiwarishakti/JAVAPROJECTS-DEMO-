@@ -1,5 +1,5 @@
 
-public class so4operators {
+public class s04operators {
 
 	public static void main(String[] args) {
 		int result = 1 + 2;
