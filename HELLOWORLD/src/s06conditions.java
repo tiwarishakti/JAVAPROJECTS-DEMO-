@@ -34,7 +34,8 @@ public class s06conditions {
 		System.out.println("A after logical and ="+a);
 		System.out.println("a<b and a<c ="+ (a<b & ++a<c));
 		System.out.println("A after bitwise and =" + a );
-		
+		// == COMPARISION 
+		// = ASSIGN
 		boolean mybool = false;
 		if(mybool = false) {
 			System.out.println("X");
@@ -43,6 +44,8 @@ public class s06conditions {
 			System.out.println("Y");
 		}
 		System.out.println("what willl be the value?" + (mybool=false));
+		System.out.println("a<b OR a<c ="+ (a<b || ++a<c)); // LOGICAL OR
+		System.out.println("a<b OR a<c ="+ (a<b | ++a<c));  // BITWISE OR
 	}
 
 }
