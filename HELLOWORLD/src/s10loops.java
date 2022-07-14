@@ -28,7 +28,7 @@ public class s10loops {
 			System.out.print(+ ++i);
 			System.out.println(" ");
 		}
-		// find sum of all numbers divided by 3 and 5 between 1 to 100
+		// find sum of 5 numbers divided by 3 and 5 between 1 to 100
 		int a = 0;
 		int c = 0;
 		for (int i = 1; i <= 100; ++i) {
