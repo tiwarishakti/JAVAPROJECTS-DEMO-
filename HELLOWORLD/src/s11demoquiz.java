@@ -10,6 +10,7 @@ public class s11demoquiz {
 			System.out.println("1.bill gates\n2.tim cook\n3.nadella\n4. jeff bezos\n5. exit program");
 			System.out.println("enter your choice...");
 			n = sc.nextInt();
+			String str=sc.nextLine();
 
 			if (n == 4) {
 				System.out.println("good");
